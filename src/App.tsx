@@ -1,6 +1,13 @@
 import { useState } from 'react'
 import logo from './assets/logo.png'
-import presentationVideo from './assets/cakeval-presentacion.mp4'
+<div className="video-container">
+  <iframe
+    src="https://www.youtube.com/embed/E8zlLaIqHCM"
+    title="Presentación de Cakeval"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+  ></iframe>
+</div>
 
 const NAV_LINKS = [
   { label: 'Inicio', href: '#inicio' },
