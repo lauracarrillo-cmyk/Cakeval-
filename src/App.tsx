@@ -178,16 +178,14 @@ export default function App() {
               aria-hidden="true"
             />
             <div className="relative rounded-3xl overflow-hidden border border-[#EEEAFF] bg-white p-2 md:p-3 shadow-xl">
-              <video
-                className="w-full max-h-[75vh] rounded-2xl bg-[#1A1535] object-contain"
-                controls
-                playsInline
-                preload="metadata"
-                aria-label="Video de presentación de Cakeval"
-              >
-                <source src={presentationVideo} type="video/mp4" />
-                Tu navegador no puede reproducir este video.
-              </video>
+<div className="video-container">
+  <iframe
+    src="https://www.youtube.com/embed/E8zlLaIqHCM"
+    title="Presentación de Cakeval"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+  />
+</div>
             </div>
           </div>
         </div>
